@@ -6,7 +6,7 @@ class Solution(object):
         
         for i in range(len(nums)):
             if pivot == 0:
-                left_sum = 0
+                left = 0
             
             left = sum(nums[0:i])
             right = sum(nums[i+1:len(nums)])
